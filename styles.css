@@ -1,0 +1,22 @@
+#interface1, #interface2 {
+    display: none;
+  }
+  
+  .card {
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    background-color: lightgray;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .hidden-card {
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    background-color: darkgray;
+    margin: 5px;
+    cursor: pointer;
+  }
+  

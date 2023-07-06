@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trang web lá bài</title>
+  <style>
+    .card {
+      width: 250px;
+      height: 365px;
+      margin: 25px;
+      background-color: #ccc;
+      background-size: cover;
+      background-position: center;
+      display: inline-block;
+    }
+    .star {
+      font-size: 50px;
+      color: gold
+    }
+  </style>
+</head>
+<body>
+  <div id="cardContainer"></div>
+  <button id="startButton" onclick="startGame()">Bắt đầu</button>
+  <div id="gameContainer" style="display: none;">
+    <div id="hiddenCards"></div>
+    <div id="selectedCards"></div>
+    <button id="addCardButton" onclick="addCard()">Thêm lá bài</button>
+    <button id="resetButton" onclick="resetGame()" style="display: none;">Reset</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
